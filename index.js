@@ -3,6 +3,10 @@ const axios = require('axios')
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
+const coinId = "vigorus";
+const guildId = "932575805316427786";
+const botSecret = "OTMyNTc5NzgyNjI4MTA2Mjgx.YeVCmg.ep6p5KNwGSa6PK6L049F_KFEhGk";
+
 function getPrices() {
 
 
@@ -40,5 +44,5 @@ client.on('ready', () => {
 	setInterval(getPrices, Math.max(1, process.env.MC_PING_FREQUENCY || 1) * 60 * 1000)
 })
 
-// Login to Discord
+//https://discord.com/oauth2/authorize?client_id=932579782628106281permissions=0&scope=bot%20applications.commands
 client.login(process.env.DISCORD_TOKEN)

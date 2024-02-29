@@ -31,7 +31,7 @@ function getPrices() {
           res.data[0].price_change_percentage_30d_in_currency || 0;
         let symbol = res.data[0].symbol || "?";
         let marketCap = res.data[0].market_cap || 0;
-        let priceSymbol = (priceChange) => (priceChange >= 0 ? "+" : "-");
+        let priceSymbol = (priceChange) => (priceChange >= 0 ? "+" : "");
         let arrow = (priceChange) => (priceChange >= 0 ? "▲" : "▼");
         let numberWithCommas = (number) =>
           number

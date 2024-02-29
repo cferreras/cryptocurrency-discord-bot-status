@@ -1,12 +1,12 @@
 {
-	"author": "Carlos Ferreras",
-	"license": "MIT",
-	"scripts": {
-		"start": "node index.js"
-	},
-	"dependencies": {
-		"axios": "^0.17.1",
-		"discord.js": "^11.3.0",
-		"dotenv": "^5.0.0"
-	}
+  "author": "Carlos Ferreras",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "discord.js": "^14.14.1",
+    "dotenv": "^5.0.0"
+  }
 }

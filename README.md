@@ -24,7 +24,7 @@ Just follow these steps:
 4. **Duplicate and rename the `.env-template` file** and configure it to your liking.
 
 Ensure to **enable server member intent** on the Discord developer page 
-![Server member intent](https://i.imgur.com/xh2kA7K.png)
+![Server member intent](https://i.imgur.com/X7kmpIL.png)
 
 For information on getting a bot token, follow the steps on [the Discord developer documentation.](https://discordapp.com/developers/docs/intro)
 

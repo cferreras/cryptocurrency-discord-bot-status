@@ -1,4 +1,4 @@
-![Example bot setup.](https://i.imgur.com/SXbr6cp.png)
+![Example bot setup.](https://i.imgur.com/JGDEuIP.png)
 
 ## About
 

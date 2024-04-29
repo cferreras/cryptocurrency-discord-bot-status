@@ -55,7 +55,7 @@ function getPrices() {
         }
 
         // If the currency symbol is before
-        if (process.env.CURRENCY_DISPLAY === "before") {
+        if (process.env.CURRENCY_BEFORE) {
           // Change nickname with the price and symbol
           client.guilds.cache.forEach((guild) => {
             guild.members.me.setNickname(

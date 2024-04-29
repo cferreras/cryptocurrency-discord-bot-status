@@ -94,11 +94,7 @@ function getPrices() {
         });
 
         console.log("Updated price to", currentPrice);
-      } else
-        console.log(
-          "Could not load player count data for",
-          process.env.COIN_ID
-        );
+      } else console.log("Could not load coin data for", process.env.COIN_ID);
     })
     .catch((err) => console.log("Error at api.coingecko.com data:", err));
 }
@@ -106,12 +102,11 @@ let runOnce = 0; // Only change avatar on fist run
 
 // Runs when client connects to Discord.
 client.on("ready", () => {
-  //   client.application.fetch().edit({ description: "New About Me Here" });
   console.log("Logged in as", client.user.tag);
 
   client.user.setAvatar();
-  getPrices(); // Ping server once on startup
-  // Ping the server and set the new status message every x minutes. (Minimum of 1 minute)
+  getPrices(); // Get prices once on startup
+  // Get prices and set the new status message every x minutes. (Minimum of 1 minute)
   setInterval(
     getPrices,
     Math.max(1, process.env.UPDATE_FREQUENCY || 1) * 60 * 1000

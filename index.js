@@ -114,7 +114,7 @@ client.on("ready", () => {
   // Ping the server and set the new status message every x minutes. (Minimum of 1 minute)
   setInterval(
     getPrices,
-    Math.max(1, process.env.MC_PING_FREQUENCY || 1) * 60 * 1000
+    Math.max(1, process.env.UPDATE_FREQUENCY || 1) * 60 * 1000
   );
 });
 

@@ -28,6 +28,10 @@ Ensure to **enable server member intent** on the Discord developer page
 
 For information on getting a bot token, follow the steps on [the Discord developer documentation.](https://discordapp.com/developers/docs/intro)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=cferreras/cryptocurrency-discord-bot-status&type=Date)](https://star-history.com/#cferreras/cryptocurrency-discord-bot-status&Date)
+
 ## Extra Info
 
 This was created for my Discord server, but I wanted to share it with added flexibility for anyone to use.
